@@ -30,7 +30,7 @@
   
   [[main]]
   name = "রাজনীতি"
-  url = "/categories/"
+  url = "/categories/politics"
   weight = 1
   parent= 1
   
@@ -42,13 +42,13 @@
   
   [[main]]
   name = "বিজ্ঞান"
-  url = "/categories/"
+  url = "/categories/science"
   weight = 3
   parent= 1
   
   [[main]]
   name = "লিনাক্স"
-  url = "/categories/"
+  url = "/categories/linux"
   weight = 4
   parent= 1
 
@@ -58,11 +58,11 @@
   url = "translation/"
   weight = 30
 
-[[main]]
-  pre = "<i class=\"fas fa-donate pr-1\" style=\"color: #00d1b2;\"></i>"
-  name = "Support Us"
-  url = "#support"
-  weight = 40
+#[[main]]
+ # pre = "<i class=\"fas fa-donate pr-1\" style=\"color: #00d1b2;\"></i>"
+#  name = "Support Us"
+  #url = "#support"
+ # weight = 40
 
 #[[main]]
 #  pre = "<i class=\"fas fa-address-card pr-1\" style=\"color: #00d1b2;\"></i>"
