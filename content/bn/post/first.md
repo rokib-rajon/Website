@@ -8,6 +8,6 @@ tags:
 summary: go
 header:
   caption: 'tai '
-  image: /img/dp.png
+  image: /img/zen.jpg
 ---
 knknsfkzndf
