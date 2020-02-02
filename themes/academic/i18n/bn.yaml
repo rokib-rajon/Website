@@ -1,0 +1,223 @@
+# Navigation
+
+- id: toggle_navigation
+  translation: Toggle navigation
+
+- id: table_of_contents
+  translation: Table of Contents
+
+- id: on_this_page
+  translation: এই পাতায়
+
+- id: back_to_top
+  translation: উপরে চলুন
+
+# General
+
+- id: related
+  translation: এ সম্পর্কিত
+
+- id: minute_read
+  translation: মিনিট সময় লাগবে পড়তে
+
+- id: previous
+  translation: আগের পোস্ট
+
+- id: next
+  translation: পরের পোস্ট
+- id: figure
+  translation: "Figure %d:"
+
+- id: edit_page
+  translation: Edit this page
+
+# Buttons
+
+- id: btn_preprint
+  translation: Preprint
+
+- id: btn_pdf
+  translation: PDF
+
+- id: btn_cite
+  translation: Cite
+
+- id: btn_slides
+  translation: Slides
+
+- id: btn_video
+  translation: ভিডিও
+
+- id: btn_code
+  translation: Code
+
+- id: btn_dataset
+  translation: Dataset
+
+- id: btn_project
+  translation: Project
+
+- id: btn_poster
+  translation: Poster
+
+- id: btn_source
+  translation: Source Document
+
+- id: btn_copy
+  translation: কপি
+
+- id: btn_download
+  translation: ডাউনলোড
+
+# About widget
+
+- id: interests
+  translation: আগ্রহ
+
+- id: education
+  translation: শিক্ষা
+
+- id: user_profile_latest
+  translation: সাম্প্রতিক
+
+# Accomplishments widget
+
+- id: see_certificate
+  translation: See certificate
+
+# Experience widget
+
+- id: present
+  translation: বর্তমান
+
+# Pages widget
+
+- id: more_pages
+  translation: সবগুলো দেখুন
+
+- id: more_posts
+  translation: সকল লেখা
+
+- id: more_talks
+  translation: See all talks
+
+- id: more_publications
+  translation: See all publications
+
+# Contact widget
+
+- id: contact_name
+  translation: নাম
+- id: contact_email
+  translation: ইমেইল
+
+- id: contact_message
+  translation: বার্তা
+
+- id: contact_send
+  translation: পাঠান
+
+- id: book_appointment
+  translation: Book an appointment
+
+# Publication/Talk details
+
+- id: abstract
+  translation: Abstract
+
+- id: publication
+  translation: Publication
+
+- id: publication_type
+  translation: ধরন
+
+- id: date
+  translation: তারিখ
+
+- id: last_updated
+  translation: সর্বশেষ আপডেট
+
+- id: event
+  translation: Event
+
+- id: location
+  translation: Location
+
+- id: pub_uncat
+  translation: Uncategorized
+
+- id: pub_conf
+  translation: Conference paper
+
+- id: pub_journal
+  translation: Journal article
+
+- id: pub_preprint
+  translation: Preprint
+
+- id: pub_report
+  translation: Report
+
+- id: pub_book
+  translation: Book
+
+- id: pub_book_section
+  translation: Book section
+
+- id: pub_thesis
+  translation: Thesis
+
+- id: pub_patent
+  translation: Patent
+
+# Project details
+
+- id: open_project_site
+  translation: Go to Project Site
+
+# Default titles for archive pages
+
+- id: posts
+  translation: পোস্ট
+
+- id: publications
+  translation: Publications
+
+- id: talks
+  translation: Talks
+
+- id: projects
+  translation: Projects
+
+# Search
+
+- id: search
+  translation: খুঁজুন
+
+- id: search_placeholder
+  translation: খুঁজুন ...
+
+- id: search_results
+  translation: অনুসন্ধানের ফলাফল
+
+- id: search_no_results
+  translation: কিছু পাওয়া যায়নি
+
+# Error 404
+
+- id: page_not_found
+  translation: দুঃখিত পেজটি পাওয়া যায়নি
+
+- id: 404_recommendations
+  translation: আপনি কি এগুলো খুঁজছেন ?
+
+# Cookie consent
+
+- id: cookie_message
+  translation: This website uses cookies to ensure you get the best experience on our website.
+
+- id: cookie_dismiss
+  translation: ঠিক আছে !
+
+- id: cookie_learn
+  translation: আর জানুন

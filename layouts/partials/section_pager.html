@@ -1,0 +1,21 @@
+{{ $str := "" }}
+<div class="post-nav">
+
+  {{if .PrevInSection}}
+  {{ if eq .Type "docs" }}{{ $str = "next" }}{{else}}{{ $str = "previous" }}{{end}}
+  
+  <div class="post-nav-item-1">
+    <div class="meta-nav">{{ i18n $str }}</div>
+    <a href="{{.PrevInSection.RelPermalink}}" rel="prev"> <i class="fas fa-caret-square-left" style="font-size:36px"></i> {{.PrevInSection.Title}}</a>
+  </div>
+  {{end}}
+
+  {{if .NextInSection}}
+  {{/* For the docs layout, prev/next labels are reversed. */}}
+   {{ if eq .Type "docs" }}{{ $str = "previous" }} {{else}}{{ $str = "next" }}{{end}}
+  <div class="post-nav-item-2"> 
+    <div class="meta-nav">{{ i18n $str }}</div>
+    <a href= "{{.NextInSection.RelPermalink}}"  rel="next">           {{.NextInSection.Title}}  <i class="fas fa-caret-square-right" style="font-size:36px"></i></a>
+     {{end}}</i> 
+  </div>
+  </div>

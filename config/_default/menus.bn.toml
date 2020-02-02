@@ -1,0 +1,107 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+#[[main]]
+#  pre = "<i class=\"fas fa-home pr-1\" style=\"color: #00d1b2;\"></i>"
+#  name = "Home"
+#  url = "#hero"
+#  weight = 5
+
+[[main]]
+  pre = "<i class=\"fas fa-home pr-1\" style=\"color: #00d1b2;\"></i>"
+  name = "হোম "
+  url = "/"
+  weight = 10
+
+[[main]]
+  pre = "<i class=\"fas fa-newspaper pr-1\" style=\"color: #00d1b2;\"></i>"
+  name = "ব্লগ"
+  url = "post/"
+  weight = 20
+
+[[main]]
+  pre = "<i class=\"fas fa-images pr-1\" style=\"color: #00d1b2;\"></i>"
+  name = "বিভাগসমূহ"
+  url = "/categories/"
+  weight = 30
+  identifier= 1
+  
+  [[main]]
+  name = "রাজনীতি"
+  url = "/categories/"
+  weight = 1
+  parent= 1
+  
+  [[main]]
+  name = "সমাজ"
+  url = "/categories/"
+  weight = 4
+  parent= 1
+  
+  [[main]]
+  name = "বিজ্ঞান"
+  url = "/categories/"
+  weight = 3
+  parent= 1
+  
+  [[main]]
+  name = "লিনাক্স"
+  url = "/categories/"
+  weight = 4
+  parent= 1
+
+[[main]]
+  pre = "<i class=\"fas fa-brush pr-1\" style=\"color: #00d1b2;\"></i>"
+  name = "অনুবাদ"
+  url = "translation/"
+  weight = 30
+
+[[main]]
+  pre = "<i class=\"fas fa-donate pr-1\" style=\"color: #00d1b2;\"></i>"
+  name = "Support Us"
+  url = "#support"
+  weight = 40
+
+#[[main]]
+#  pre = "<i class=\"fas fa-address-card pr-1\" style=\"color: #00d1b2;\"></i>"
+#  name = "Widgets"
+#  url = "widgets/"
+#  weight = 40
+
+#[[main_right]]
+ # name = "<i class=\"fab fa-github-alt\" style=\"color: #333; font-size: 1rem; line-height: 1.25\"></i>"
+ # post = ""
+ # url = "https://github.com/gcushen/hugo-academic"
+ # weight = 10
+
+#[[main_right]]
+#  name = "<i class=\"fas fa-comments\" style=\"color: rgb(123, 22, 255); font-size: 1rem; line-height: 1.25\"></i>"
+  #post = ""
+ # url = "https://spectrum.chat/academic"
+ # weight = 20
+
+#[[main_right]]
+  #name = "<i class=\"fab fa-twitter\" style=\"color: #55acee; font-size: 1rem; line-height: 1.25\"></i>"
+ # post = ""
+ # url = "https://twitter.com/source_themes"
+  #weight = 20
+
+#[[main_right]]
+  #name = "<span class=\"btn btn-primary d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3\">Install</span>"
+ # post = ""
+ # url = "docs/install/"
+  #weight = 30
+
+# Documentation
+
+#[[docs]]
+ # name = "Overview"
+ # weight = 10
+ # url = "/docs/"
+
+#[[docs]]
+ # name = "Getting Started"
+ # weight = 20
+  #identifier = "setup"
