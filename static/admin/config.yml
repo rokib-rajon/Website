@@ -236,7 +236,7 @@ collections:
 
   - name: "blog"
     label: "Blog post"
-    folder: "content/post/"
+    folder: "content/bn/post/"
     create: true
     fields:
       - { label: "Title", name: "title" }
