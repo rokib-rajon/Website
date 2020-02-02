@@ -1,3 +1,7 @@
 [submodule "themes/academic"]
 	path = themes/academic
 	url = https://github.com/gcushen/hugo-academic.git
+[submodule "rokib-rajon.github.io"]
+	path = rokib-rajon.github.io
+	url = https://github.com/rokib-rajon/rokib-rajon.github.io
+	branch = master
