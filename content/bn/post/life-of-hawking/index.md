@@ -5,7 +5,7 @@ summary:
 authors:
 - admin
 tags: [হকিং,পদার্থবিজ্ঞান]
-categories: [Science, Biography]
+categories: [Science, Biography,বিজ্ঞান]
 date: "2020-02-02"
 lastMod: "2020-02-02 "
 featured: true
