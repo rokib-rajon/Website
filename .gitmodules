@@ -5,3 +5,7 @@
 	path = rokib-rajon.github.io
 	url = https://github.com/rokib-rajon/rokib-rajon.github.io
 	branch = master
+[submodule "public"]
+	path = public
+	url = https://github.com/rokib-rajon/rokib-rajon.github.io.git
+	branch = master
