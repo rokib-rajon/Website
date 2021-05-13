@@ -4,13 +4,13 @@
 # This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 # At the bottom of your `config.yaml` is a Module section:
-module:
-  imports:
+module=
+  imports=
     # Any Hugo modules you installed will appear here.
   
     # Add the Wowchemy CMS module below, if it has not already been added:
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy
+    - path= "github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms"
+    - path= "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"
     
 # Title of your site
 title = "Rokib Rajon"
