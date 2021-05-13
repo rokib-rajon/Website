@@ -8,9 +8,7 @@
 [module]
   [[module.imports]]
     path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms"
-  [[module.imports]]
-    path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"
-    
+
 
     
 # Title of your site
