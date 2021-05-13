@@ -4,13 +4,18 @@
 # This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 # At the bottom of your `config.yaml` is a Module section:
+
 [module]
-  [imports]
-    # Any Hugo modules you installed will appear here.
-  
-    # Add the Wowchemy CMS module below, if it has not already been added:
-    path= "github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms"
-    path= "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"
+  [[module.imports]]
+    path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"
+  [[module.imports]]
+    path = "github.com/wowchemy/wowchemy-hugo-modules/netlify-cms-academic"
+EOF
+## the documentation doesn't specify where go.mod and go.sum reside, but I put
+## them in the root of my site repository and it seems to work:
+$ wget https://raw.githubusercontent.com/wowchemy/starter-academic/master/go.mod
+$ wget https://raw.githubusercontent.com/wowchemy/starter-academic/master/go.sum
+
     
 # Title of your site
 title = "Rokib Rajon"
